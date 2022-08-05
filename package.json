@@ -1,0 +1,25 @@
+{
+    "name": "launchermodule-example",
+    "version": "1.0.0",
+    "description": "Example module for AuroraLauncher",
+    "main": "dist/module.js",
+    "scripts": {
+        "dev": "tsup --watch",
+        "build": "tsup"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AuroraTeam/LauncherModule-Example.git"
+    },
+    "author": "JoCat",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AuroraTeam/LauncherModule-Example/issues"
+    },
+    "homepage": "https://github.com/AuroraTeam/LauncherModule-Example#readme",
+    "devDependencies": {
+        "@tsconfig/node16": "^1.0.3",
+        "@types/node": "^16.11.47",
+        "tsup": "^6.2.1"
+    }
+}
