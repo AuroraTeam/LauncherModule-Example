@@ -3,9 +3,6 @@ export class Module {
     static readonly #version = "1.0.0";
     static readonly #description = "Example module";
     static readonly #author = "Example author";
-    // static readonly #dependencies = {
-    //     "example-module": "^1.0.0",
-    // };
 
     static getInfo() {
         return {
