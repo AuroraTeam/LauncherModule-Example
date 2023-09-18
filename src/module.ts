@@ -13,7 +13,9 @@ export class Module {
         };
     }
 
-    init() {
+    // TODO Add app type
+    init(app: any) {
         console.log("Example module initialized");
+        console.log(app);
     }
 }
